@@ -1,3 +1,5 @@
 export const userController = (req, res) => {
-  res.send("User API route is woring!");
+  res.json({
+    message: "User API route is working well!",
+  });
 };
